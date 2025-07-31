@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.test;uses:="org.apache.synapse.rest,or
+ g.apache.axiom.om,org.apache.axiom.soap,org.apache.synapse.transport.
+ passthru.util,org.apache.synapse.commons.json,org.apache.axis2.contex
+ t,org.apache.synapse.core.axis2,org.apache.synapse"
+Bundle-SymbolicName: org.wso2.carbon.test
+Bundle-Name: org.wso2.carbon.test
+Bundle-Version: 1.0.0.SNAPSHOT
+Built-By: aselap
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1753988954424
+Import-Package: org.apache.axiom.om;resolution:=optional,org.apache.ax
+ iom.soap;resolution:=optional,org.apache.axis2.context;resolution:=op
+ tional,org.apache.synapse;resolution:=optional,org.apache.synapse.com
+ mons.json;resolution:=optional,org.apache.synapse.core.axis2;resoluti
+ on:=optional,org.apache.synapse.rest;resolution:=optional,org.apache.
+ synapse.transport.passthru.util;resolution:=optional,org.wso2.carbon.
+ test;resolution:=optional
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-0.0.238
+Build-Jdk: 1.8.0_412
+
