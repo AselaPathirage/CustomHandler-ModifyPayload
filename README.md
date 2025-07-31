@@ -7,7 +7,7 @@ It processes incoming requests with `application/json` content type and performs
 - Reads the payload from the SOAP envelope's `<text>` element.
 - Removes any keys prefixed with `@` in the JSON body.
 - Replaces the payload with the cleaned JSON.
-- Resets the `Content-Type` and `messageType` headers appropriately.
+- Resets the `ContentType` and `messageType` appropriately.
 
 ## How to Build
 
@@ -19,7 +19,8 @@ It processes incoming requests with `application/json` content type and performs
 mvn clean install
 ```
 4. Copy the built .jar file to the <APIM_HOME>/repository/components/dropins/
-5. Modify the velocity_template.xml
+5. Create an API and add an additional property named customHandler with the value true. 
+6. Modify the velocity_template.xml to ensure that the handler is applied only to APIs that have the customHandler property set to true.
 
 ```bash
 <handlers xmlns="http://ws.apache.org/ns/synapse">
