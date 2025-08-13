@@ -1,6 +1,6 @@
-# Custom Synapse Handler for WSO2 APIM
+# Custom Handler for WSO2 APIM
 
-This is a simple custom handler for WSO2 API Manager/Micro Integrator.  
+This is a simple custom handler for WSO2 API Manager.  
 It processes incoming requests with `application/json` content type and performs the following:
 
 - Converts into `text/plain`
